@@ -1,0 +1,120 @@
+.mainhead {
+    text-align: center;
+}
+
+.mainhead h1 {
+    line-height: 80px;
+    margin-top: 200px;
+    font-size: 70px;
+}
+
+.herosearch {
+    width: 100%;
+    margin-top: 50px;
+    transition: 0.3s ease;
+}
+
+.herosearch:hover {
+    box-shadow: 1px 1px 180px #0000fe42;
+}
+
+.herosearch input {
+    width: 100%;
+}
+
+.firstsec {
+    width: 80%;
+    margin: auto;
+}
+
+.herostarblue {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+.herostargreen {
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+
+#courseone {
+    margin-top: 150px;
+}
+
+.testhead h1{
+    font-size: 50px;
+}
+
+.testhead p {
+    font-size: 20px;
+}
+
+.coursesec {
+    max-width: 100%; /* Makes sure the section fits within the screen width */
+    overflow: hidden;
+}
+
+#herocoursepage {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px; /* Spacing between cards */
+    padding: 20px 0;
+}
+
+#scrollcard {
+    width: 373px;
+    min-width: 250px; /* Adjust to fit 4 cards per view */
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+#herocoursepage::-webkit-scrollbar {
+    height: 8px; /* Set the height for a horizontal scrollbar */
+}
+
+#herocoursepage::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+    border-radius: 10px;
+}
+
+#herocoursepage::-webkit-scrollbar-thumb {
+    background-color: #0000fe; /* Color of the scrollbar thumb */
+    border-radius: 10px;
+}
+
+#herocoursepage::-webkit-scrollbar-thumb:hover {
+    background-color: #0000c7; /* Darker color when hovered */
+}
+
+@media (max-width: 1365px) {
+    .herosearch input {
+        width: 100%;
+    }
+
+    .herostarblue,
+    .herostargreen {
+        max-width: 18vw;
+    }
+
+    #scrollcard {
+        width: 320px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainhead h1 {
+        margin-top: 40px;
+    }
+
+    .herosearch {
+        width: 100%;
+    }
+
+    #scrollcard {
+        width: 86vw;
+        min-width: 86vw;
+    }
+}
