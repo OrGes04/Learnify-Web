@@ -89,7 +89,7 @@
     background-color: #0000c7; /* Darker color when hovered */
 }
 
-@media (max-width: 1365px) {
+@media (max-width: 1679px) {
     .herosearch input {
         width: 100%;
     }
@@ -107,6 +107,18 @@
 @media (max-width: 767px) {
     .mainhead h1 {
         margin-top: 40px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .testhead h1 {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 12px;
+    }
+
+    .testhead p {
+        font-size: 16px;
     }
 
     .herosearch {

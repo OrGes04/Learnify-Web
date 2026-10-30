@@ -16,3 +16,14 @@ document.querySelectorAll('nav').forEach((nav) => {
         });
     });
 });
+
+const backToTop = document.querySelector('.switchslide');
+
+if (backToTop) {
+    const toggleBackToTop = () => {
+        backToTop.classList.toggle('show', window.scrollY > 600);
+    };
+
+    toggleBackToTop();
+    window.addEventListener('scroll', toggleBackToTop, { passive: true });
+}

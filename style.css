@@ -907,6 +907,15 @@ nav button:active {
     bottom: 50px;
     right: 50px;
     cursor: pointer;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease;
+}
+
+.switchslide.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 .switchslide i {
@@ -1068,8 +1077,8 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: white;
-    opacity: 60%;
-    font-weight: 200;
+    opacity: 80%;
+    font-weight: 300;
     transition: 0.3s ease;
 }
 
@@ -2363,7 +2372,7 @@ footer ul li a:hover {
     background-color: #bebebe;
 }
 
-@media (max-width: 1365px) {
+@media (max-width: 1679px) {
     html,
     body {
         max-width: 100%;
@@ -2443,18 +2452,78 @@ footer ul li a:hover {
         justify-content: center;
     }
 
-    .herorate,
-    .statboxtab {
-        width: 420px;
+    .ratestat {
+        flex: 1 1 0;
+        min-width: 0;
     }
 
-    .herotestimonial {
-        width: 520px;
+    .herorate,
+    .statboxtab {
+        width: 100%;
+    }
+
+    .heropfp img:nth-child(n+7) {
+        display: none;
+    }
+
+    .pfptxt h1 {
+        font-size: 20px;
+        white-space: nowrap;
+    }
+
+    .heroshape .herotestimonial {
+        flex: 1.3 1 0;
+        width: auto;
+        min-width: 0;
+    }
+
+    .heromainfoto {
+        flex: 0 0 auto;
     }
 
     .heromainfoto,
     .heromainfoto img {
         width: 320px;
+    }
+
+    #aboutsecstar {
+        top: -80px;
+        left: 40%;
+    }
+
+    #aboutsecstarblue {
+        top: auto;
+        bottom: -80px;
+        left: 20%;
+    }
+
+    .herostarblue {
+        right: -30px;
+    }
+
+    #aboutstarblue {
+        left: 86%;
+    }
+
+    .aboutpfps img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #apfp1 {
+        top: 144px;
+    }
+
+    #apfp2 {
+        left: 120px;
+    }
+
+    #apfp3 {
+        right: 96px;
+    }
+
+    #apfp4 {
+        top: 160px;
     }
 
     .backsmb,
@@ -2481,6 +2550,13 @@ footer ul li a:hover {
 
     .cattab {
         width: 100%;
+        height: auto;
+        min-height: 400px;
+        padding-bottom: 80px;
+    }
+
+    .cattab p {
+        width: auto;
     }
 
     .tabtop {
@@ -2488,7 +2564,7 @@ footer ul li a:hover {
     }
 
     .courseflex {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     #lastflex {
@@ -2635,6 +2711,28 @@ footer ul li a:hover {
         width: 100%;
     }
 
+    .ratestat,
+    .heroshape .herotestimonial,
+    .heromainfoto {
+        flex: none;
+    }
+
+    .heroshape .herotestimonial {
+        height: auto;
+    }
+
+    .herosearch form {
+        width: calc(100% - 28px);
+    }
+
+    .heropfp img:nth-child(n+7) {
+        display: block;
+    }
+
+    p {
+        line-height: 1.55;
+    }
+
     .heromainfoto,
     .heromainfoto img {
         height: 520px;
@@ -2713,7 +2811,9 @@ footer ul li a:hover {
 
     .adsec {
         height: auto;
-        align-items: flex-start;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
     }
 
     .adft img,
@@ -2885,6 +2985,11 @@ footer ul li a:hover {
         height: 40px;
     }
 
+    .herosearch .fa-magnifying-glass {
+        padding: 10px;
+        margin-right: -10px;
+    }
+
     .herorate {
         height: auto;
         border-radius: 20px;
@@ -2999,7 +3104,31 @@ footer ul li a:hover {
     }
 
     .aboutsectop h1 {
-        margin-bottom: 160px;
+        margin-bottom: 48px;
+    }
+
+    .resomain {
+        margin-top: 40px;
+    }
+
+    #apfp1 {
+        top: 45%;
+        left: 0;
+    }
+
+    #apfp2 {
+        top: 0;
+        left: 6%;
+    }
+
+    #apfp3 {
+        top: 4%;
+        right: 4%;
+    }
+
+    #apfp4 {
+        top: 52%;
+        right: 0;
     }
 
     .aboutsecdown {
@@ -3059,7 +3188,7 @@ footer ul li a:hover {
 
     .resomain {
         height: auto;
-        padding-bottom: 220px;
+        padding-bottom: 0;
     }
 
     .featuredcard,
@@ -3093,6 +3222,11 @@ footer ul li a:hover {
         left: auto;
         width: 100%;
         margin-top: -120px;
+    }
+
+    .resomaintxt h1 {
+        font-size: 26px;
+        line-height: 34px;
     }
 
     .articletop h1 {
@@ -3178,6 +3312,10 @@ footer ul li a:hover {
         width: 110px;
     }
 
+    .crsbut {
+        height: 40px;
+    }
+
     nav button {
         width: 92px;
     }
@@ -3203,6 +3341,7 @@ footer ul li a:hover {
 @media (max-width: 1023px) {
     nav {
         flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
     }
