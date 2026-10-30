@@ -1,62 +1,64 @@
-.mainhead {
+.subpage .mainhead {
     text-align: center;
 }
 
-.mainhead h1 {
+.subpage .mainhead h1 {
     line-height: 80px;
     margin-top: 200px;
     font-size: 70px;
 }
 
-.herosearch {
+.subpage .herosearch {
     width: 100%;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     transition: 0.3s ease;
 }
 
-.herosearch:hover {
+.subpage .herosearch:hover {
     box-shadow: 1px 1px 180px #0000fe42;
 }
 
-.herosearch input {
+.subpage .herosearch input {
     width: 100%;
 }
 
-.firstsec {
+.subpage .firstsec {
     width: 80%;
     margin: auto;
 }
 
-.herostarblue {
+.subpage .herostarblue {
     position: absolute;
-    top: 250px;
-    left: 250px;
+    top: 300px;
+    left: 3%;
 }
 
-.herostargreen {
+.subpage .herostargreen {
     position: absolute;
-    top: 150px;
-    right: 250px;
+    top: 160px;
+    right: 4%;
 }
 
-#courseone {
+.subpage #courseone {
     margin-top: 150px;
 }
 
-.testhead h1{
+.subpage .testhead h2{
     font-size: 50px;
 }
 
-.testhead p {
+.subpage .testhead p {
     font-size: 20px;
 }
 
-.coursesec {
+.subpage .coursesec {
     max-width: 100%; /* Makes sure the section fits within the screen width */
     overflow: hidden;
 }
 
-#herocoursepage {
+.subpage #herocoursepage {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -64,68 +66,68 @@
     padding: 20px 0;
 }
 
-#scrollcard {
+.subpage #scrollcard {
     width: 373px;
     min-width: 250px; /* Adjust to fit 4 cards per view */
     flex: 0 0 auto;
     scroll-snap-align: start;
 }
 
-#herocoursepage::-webkit-scrollbar {
+.subpage #herocoursepage::-webkit-scrollbar {
     height: 8px; /* Set the height for a horizontal scrollbar */
 }
 
-#herocoursepage::-webkit-scrollbar-track {
+.subpage #herocoursepage::-webkit-scrollbar-track {
     background: #f1f1f1; /* Background of the scrollbar track */
     border-radius: 10px;
 }
 
-#herocoursepage::-webkit-scrollbar-thumb {
-    background-color: #0000fe; /* Color of the scrollbar thumb */
+.subpage #herocoursepage::-webkit-scrollbar-thumb {
+    background-color: var(--blue); /* Color of the scrollbar thumb */
     border-radius: 10px;
 }
 
-#herocoursepage::-webkit-scrollbar-thumb:hover {
+.subpage #herocoursepage::-webkit-scrollbar-thumb:hover {
     background-color: #0000c7; /* Darker color when hovered */
 }
 
 @media (max-width: 1679px) {
-    .herosearch input {
+    .subpage .herosearch input {
         width: 100%;
     }
 
     .herostarblue,
-    .herostargreen {
+    .subpage .herostargreen {
         max-width: 18vw;
     }
 
-    #scrollcard {
+    .subpage #scrollcard {
         width: 320px;
     }
 }
 
 @media (max-width: 767px) {
-    .mainhead h1 {
+    .subpage .mainhead h1 {
         margin-top: 40px;
         font-size: 40px;
         line-height: 48px;
     }
 
-    .testhead h1 {
+    .subpage .testhead h2 {
         font-size: 36px;
         line-height: 44px;
         margin-bottom: 12px;
     }
 
-    .testhead p {
+    .subpage .testhead p {
         font-size: 16px;
     }
 
-    .herosearch {
+    .subpage .herosearch {
         width: 100%;
     }
 
-    #scrollcard {
+    .subpage #scrollcard {
         width: 86vw;
         min-width: 86vw;
     }
