@@ -60,7 +60,7 @@ function Home() {
                         <div className="herorate">
                             <div className="heropfp">
                                 {[1, 2, 3, 4, 5, 6, 7, 8].map((n) => (
-                                    <img key={n} src={`/FOTO/Hero Profile ${n}.jpg`} alt="" />
+                                    <img key={n} src={`/FOTO/Hero Profile ${n}.webp`} alt="" />
                                 ))}
                             </div>
                             <div className="pfptxt">
@@ -84,7 +84,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="heromainfoto">
-                    <img src="/FOTO/Hero 3.jpg" alt="Student learning web development at his desk" />
+                    <img src="/FOTO/Hero 3.webp" alt="Student learning web development at his desk" />
                 </div>
                 <img src="/Star Icons/Star Green.svg" alt="" className="herostargreen" />
             </section>
@@ -130,7 +130,7 @@ function Home() {
                         </div>
                     ))}
                 </div>
-                <img src="/FOTO/Bck-symbol.png" alt="" className="catbck" />
+                <img src="/FOTO/Bck-symbol.webp" alt="" className="catbck" />
                 <lord-icon
                     className="eyeicon"
                     src="https://cdn.lordicon.com/dicvhxpz.json"
@@ -177,14 +177,14 @@ function Home() {
                 </div>
                 <div className="aboutft reveal">
                     <div className="aboutpng">
-                        <img src="/FOTO/student.png" alt="Smiling student with a laptop" />
+                        <img src="/FOTO/student.webp" alt="Smiling student with a laptop" />
                     </div>
-                    <img src="/FOTO/Bck-symbol.png" alt="" className="catbck" id="abbck" />
+                    <img src="/FOTO/Bck-symbol.webp" alt="" className="catbck" id="abbck" />
                     <div className="aboutpfps">
-                        <img src="/FOTO/About pfp1.jpg" alt="" id="apfp1" />
-                        <img src="/FOTO/About pfp2.jpg" alt="" id="apfp2" />
-                        <img src="/FOTO/About pfp3.jpg" alt="" id="apfp3" />
-                        <img src="/FOTO/About pfp4.jpg" alt="" id="apfp4" />
+                        <img src="/FOTO/About pfp1.webp" alt="" id="apfp1" />
+                        <img src="/FOTO/About pfp2.webp" alt="" id="apfp2" />
+                        <img src="/FOTO/About pfp3.webp" alt="" id="apfp3" />
+                        <img src="/FOTO/About pfp4.webp" alt="" id="apfp4" />
                     </div>
                 </div>
             </section>
@@ -220,7 +220,7 @@ function Home() {
                     <NewsletterForm />
                 </div>
                 <div className="adft">
-                    <img src="/FOTO/Ad1.png" alt="" />
+                    <img src="/FOTO/Ad1.webp" alt="" />
                 </div>
             </section>
         </>

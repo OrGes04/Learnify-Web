@@ -55,10 +55,10 @@ export const values = [
 ];
 
 export const team = [
-    { name: "John Doe", field: "Web Development", img: "/About Page/Professor 3.jpg" },
-    { name: "Brittany Duncan", field: "Graphic Design", img: "/About Page/Professor 4.jpg" },
-    { name: "Malik Flores", field: "UI/UX", img: "/About Page/Professor 5.jpg" },
-    { name: "Logan Torres", field: "Graphic Design", img: "/About Page/Professor 6.jpg" },
-    { name: "Renato Mullins", field: "UI/UX", img: "/About Page/Professor 7.jpg" },
-    { name: "Angela Palmer", field: "Web Development", img: "/About Page/Professor 8.jpg" },
+    { name: "John Doe", field: "Web Development", img: "/About Page/Professor 3.webp" },
+    { name: "Brittany Duncan", field: "Graphic Design", img: "/About Page/Professor 4.webp" },
+    { name: "Malik Flores", field: "UI/UX", img: "/About Page/Professor 5.webp" },
+    { name: "Logan Torres", field: "Graphic Design", img: "/About Page/Professor 6.webp" },
+    { name: "Renato Mullins", field: "UI/UX", img: "/About Page/Professor 7.webp" },
+    { name: "Angela Palmer", field: "Web Development", img: "/About Page/Professor 8.webp" },
 ];

@@ -2,7 +2,7 @@ export const courses = [
     {
         slug: "full-stack-developer",
         title: "Full-Stack Developer",
-        img: "/FOTO/Course 1.jpg",
+        img: "/FOTO/Course 1.webp",
         hours: "70hr",
         rating: "4.9",
         students: "10,000+",
@@ -13,7 +13,7 @@ export const courses = [
     {
         slug: "digital-art",
         title: "Digital Art",
-        img: "/Course Page/Coursepage 1.jpg",
+        img: "/Course Page/Coursepage 1.webp",
         hours: "22hr",
         rating: "4.7",
         students: "5,400+",
@@ -24,7 +24,7 @@ export const courses = [
     {
         slug: "mobile-app-design",
         title: "Mobile App Design",
-        img: "/Course Page/Coursepage2.jpg",
+        img: "/Course Page/Coursepage2.webp",
         hours: "35hr",
         rating: "4.8",
         students: "6,200+",
@@ -35,7 +35,7 @@ export const courses = [
     {
         slug: "graphic-design-mastery",
         title: "Graphic Design Mastery",
-        img: "/FOTO/Course 2.jpg",
+        img: "/FOTO/Course 2.webp",
         hours: "40hr",
         rating: "4.7",
         students: "7,200+",
@@ -46,7 +46,7 @@ export const courses = [
     {
         slug: "ui-ux-fundamentals",
         title: "UI/UX Fundamentals",
-        img: "/FOTO/Course 4.jpg",
+        img: "/FOTO/Course 4.webp",
         hours: "35hr",
         rating: "4.8",
         students: "8,500+",
@@ -57,7 +57,7 @@ export const courses = [
     {
         slug: "javascript-essentials",
         title: "JavaScript Essentials",
-        img: "/FOTO/Course 3.jpg",
+        img: "/FOTO/Course 3.webp",
         hours: "25hr",
         rating: "4.7",
         students: "6,500+",
@@ -78,7 +78,7 @@ export const courses = [
     {
         slug: "media-queries",
         title: "Media Queries",
-        img: "/Course Page/Coursepage 4.jpg",
+        img: "/Course Page/Coursepage 4.webp",
         hours: "15hr",
         rating: "4.7",
         students: "4,800+",
@@ -98,7 +98,7 @@ export const courses = [
     {
         slug: "backend-fundamentals",
         title: "Backend Fundamentals",
-        img: "/Course Page/Coursepage 6.jpg",
+        img: "/Course Page/Coursepage 6.webp",
         hours: "40hr",
         rating: "4.8",
         students: "6,900+",
@@ -108,7 +108,7 @@ export const courses = [
     {
         slug: "php-for-beginners",
         title: "PHP For Beginners",
-        img: "/Course Page/Coursepage 7.jpg",
+        img: "/Course Page/Coursepage 7.webp",
         hours: "30hr",
         rating: "4.7",
         students: "5,200+",
@@ -118,7 +118,7 @@ export const courses = [
     {
         slug: "react-complete-guide",
         title: "React - Complete Guide",
-        img: "/Course Page/Coursepage 8.jpg",
+        img: "/Course Page/Coursepage 8.webp",
         hours: "45hr",
         rating: "4.8",
         students: "7,100+",
@@ -138,7 +138,7 @@ export const courses = [
     {
         slug: "the-art-of-drawing",
         title: "The Art of Drawing",
-        img: "/Course Page/Coursepage 11.jpg",
+        img: "/Course Page/Coursepage 11.webp",
         hours: "35hr",
         rating: "4.8",
         students: "5,500+",
@@ -148,7 +148,7 @@ export const courses = [
     {
         slug: "illustrator-essentials",
         title: "Illustrator - Essentials",
-        img: "/Course Page/Coursepage 12.jpg",
+        img: "/Course Page/Coursepage 12.webp",
         hours: "25hr",
         rating: "4.8",
         students: "7,100+",
@@ -158,7 +158,7 @@ export const courses = [
     {
         slug: "graphic-design-theory",
         title: "Graphic Design Theory",
-        img: "/Course Page/Coursepage 13.png",
+        img: "/Course Page/Coursepage 13.webp",
         hours: "15hr",
         rating: "4.8",
         students: "4,900+",
@@ -168,7 +168,7 @@ export const courses = [
     {
         slug: "advanced-vector-artwork",
         title: "Advanced Vector Artwork",
-        img: "/Course Page/Coursepage 9.jpg",
+        img: "/Course Page/Coursepage 9.webp",
         hours: "30hr",
         rating: "4.7",
         students: "6,300+",
@@ -178,7 +178,7 @@ export const courses = [
     {
         slug: "master-typography",
         title: "Master Typography",
-        img: "/Course Page/Coursepage 14.png",
+        img: "/Course Page/Coursepage 14.webp",
         hours: "20hr",
         rating: "4.7",
         students: "5,600+",
@@ -188,7 +188,7 @@ export const courses = [
     {
         slug: "learn-adobe-xd",
         title: "Learn Adobe XD",
-        img: "/Course Page/Coursepage 15.png",
+        img: "/Course Page/Coursepage 15.webp",
         hours: "35hr",
         rating: "4.8",
         students: "6,800+",
@@ -198,7 +198,7 @@ export const courses = [
     {
         slug: "complete-figma-course",
         title: "Complete Figma Course",
-        img: "/Course Page/Coursepage 17.jpg",
+        img: "/Course Page/Coursepage 17.webp",
         hours: "70hr",
         rating: "4.9",
         students: "9,600+",
@@ -208,7 +208,7 @@ export const courses = [
     {
         slug: "ux-strategy-guide",
         title: "UX Strategy Guide",
-        img: "/Course Page/Coursepage 16.png",
+        img: "/Course Page/Coursepage 16.webp",
         hours: "20hr",
         rating: "4.9",
         students: "5,800+",
@@ -218,7 +218,7 @@ export const courses = [
     {
         slug: "ui-color-grid-and-basics",
         title: "UI Color, Grid and Basics",
-        img: "/Course Page/Coursepage 18.png",
+        img: "/Course Page/Coursepage 18.webp",
         hours: "20hr",
         rating: "4.7",
         students: "4,300+",
@@ -228,7 +228,7 @@ export const courses = [
     {
         slug: "mastering-wireframing",
         title: "Mastering Wireframing",
-        img: "/Course Page/Coursepage 19.jpg",
+        img: "/Course Page/Coursepage 19.webp",
         hours: "15hr",
         rating: "4.8",
         students: "4,700+",
@@ -248,7 +248,7 @@ export const courses = [
     {
         slug: "angular-the-complete-guide",
         title: "Angular - The Complete Guide",
-        img: "/Course Page/Coursepage 21.png",
+        img: "/Course Page/Coursepage 21.webp",
         hours: "50hr",
         rating: "4.9",
         students: "1,100+",
@@ -259,7 +259,7 @@ export const courses = [
     {
         slug: "ui-ux-design-patterns",
         title: "UI/UX Design Patterns",
-        img: "/Course Page/Coursepage 23.jpeg",
+        img: "/Course Page/Coursepage 23.webp",
         hours: "10hr",
         rating: "4.7",
         students: "600+",
@@ -270,7 +270,7 @@ export const courses = [
     {
         slug: "learn-and-understand-node-js",
         title: "Learn And Understand Node JS",
-        img: "/Course Page/Coursepage 22.png",
+        img: "/Course Page/Coursepage 22.webp",
         hours: "35hr",
         rating: "4.8",
         students: "850+",
@@ -281,7 +281,7 @@ export const courses = [
     {
         slug: "character-drawing-course",
         title: "Character Drawing Course",
-        img: "/Course Page/Coursepage 24.jpeg",
+        img: "/Course Page/Coursepage 24.webp",
         hours: "25hr",
         rating: "4.8",
         students: "930+",

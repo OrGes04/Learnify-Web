@@ -33,7 +33,7 @@ function Login() {
     return (
         <div className="loginmain">
             <div className="loginfoto">
-                <img src="/LogIn-SignUp/Login bck 5.jpg" alt="" />
+                <img src="/LogIn-SignUp/Login bck 5.webp" alt="" />
             </div>
             <div className="loginsec">
                 <div className="logintext">
@@ -67,7 +67,7 @@ function Login() {
                                     <div className="logline"></div>
                                 </div>
                                 <button className="registerbut" id="gmailbut" type="button">
-                                    <img src="/LogIn-SignUp/Google logo.png" alt="" /> Login with Google
+                                    <img src="/LogIn-SignUp/Google logo.webp" alt="" /> Login with Google
                                 </button>
                             </div>
                         </form>

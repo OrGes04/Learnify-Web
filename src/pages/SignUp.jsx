@@ -37,7 +37,7 @@ function SignUp() {
     return (
         <div className="loginmain">
             <div className="loginfoto">
-                <img src="/LogIn-SignUp/Login bck 3.jpg" alt="" />
+                <img src="/LogIn-SignUp/Login bck 3.webp" alt="" />
             </div>
             <div className="loginsec">
                 <div className="logintext">
@@ -81,10 +81,10 @@ function SignUp() {
                                 </div>
                                 <div className="socialbut">
                                     <button className="registerbut" id="gmailbut" type="button">
-                                        <img src="/LogIn-SignUp/Google logo.png" alt="" /> Sign Up with Google
+                                        <img src="/LogIn-SignUp/Google logo.webp" alt="" /> Sign Up with Google
                                     </button>
                                     <button className="registerbut" id="gmailbut" type="button">
-                                        <img src="/LogIn-SignUp/Facebook logo.png" alt="" /> Sign Up with Facebook
+                                        <img src="/LogIn-SignUp/Facebook logo.webp" alt="" /> Sign Up with Facebook
                                     </button>
                                 </div>
                             </div>

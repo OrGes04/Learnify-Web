@@ -150,7 +150,7 @@ function Nav() {
                         ))}
                     </ul>
                     <div className="navbut">
-                        <Link to="/login">Log In</Link>
+                        <Link to="/login" className="navlogin">Log In</Link>
                         <Link to="/signup" className="navsignup">Sign Up</Link>
                     </div>
                 </div>

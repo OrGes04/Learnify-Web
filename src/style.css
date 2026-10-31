@@ -1273,7 +1273,7 @@ footer ul li a:hover {
     width: 100%;
     height: 450px;
     border-radius: 20px;
-    background: linear-gradient(#000000d8, #000000d8), url("/FOTO/Background 2.jpg");
+    background: linear-gradient(#000000d8, #000000d8), url("/FOTO/Background 2.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -5418,4 +5418,246 @@ footer .socials {
     #bookcard:hover .cardfoto img {
         scale: 1;
     }
+}
+
+nav {
+    height: 76px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navlogo {
+    gap: 8px;
+}
+
+.navlogo img,
+nav .navlogo img {
+    width: 30px;
+}
+
+.navlogo span {
+    font-size: 21px;
+    padding-top: 10px;
+}
+
+nav ul li a,
+.navdrop > a {
+    font-size: 15px;
+}
+
+.navsignup {
+    width: 90px;
+    height: 36px;
+    font-size: 14px;
+}
+
+.tabicon {
+    display: grid;
+    place-items: center;
+    line-height: 1;
+}
+
+.partnersec img {
+    mix-blend-mode: normal;
+    filter: grayscale(1);
+}
+
+.teachfirst,
+.teachfirst #teamarrow {
+    color: black;
+}
+
+#lastflex #lastcard:hover {
+    background-color: white;
+    border-color: black;
+    transform: translateY(-6px);
+    box-shadow: 0 24px 48px #00000014;
+}
+
+#lastflex #lastcard:hover h2,
+#lastflex #lastcard:hover h3,
+#lastflex #lastcard:hover h5 {
+    color: black;
+}
+
+#lastflex #lastcard:hover .clock i,
+#lastflex #lastcard:hover .user i {
+    color: var(--blue);
+}
+
+#lastflex #lastcard:hover .crsbut {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+#lastflex #lastcard:hover .cardfoto img {
+    scale: 1.05;
+}
+
+footer {
+    height: auto;
+    margin-top: 160px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+footer .listhr {
+    display: none;
+}
+
+footer h2 {
+    margin-bottom: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    font-size: 15px;
+}
+
+footer .footlogo img {
+    width: 34px;
+}
+
+footer .footlogo span {
+    font-size: 24px;
+}
+
+footer .socials {
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+footer .socials a {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.12);
+    transition: 0.3s ease;
+}
+
+footer .socials a:hover {
+    background-color: white;
+}
+
+footer .socials i {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+footer .socials a:hover i {
+    color: var(--blue);
+}
+
+footer .mainfoothr {
+    width: 100%;
+    margin: 0 0 24px;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    opacity: 1;
+}
+
+footer .footdown {
+    margin: 0;
+    text-align: center;
+}
+
+footer .footdown p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+@media (min-width: 1024px) {
+    .footup {
+        display: grid;
+        grid-template-columns: 1.6fr 1fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 1023px) {
+    nav,
+    .menutop {
+        min-height: 0;
+    }
+
+    footer {
+        margin-top: 100px;
+        padding-top: 48px;
+    }
+
+    .footup {
+        margin-bottom: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navlogo img,
+    nav .navlogo img {
+        width: 26px;
+    }
+
+    .navlogo span {
+        font-size: 19px;
+        padding-top: 9px;
+    }
+
+    main .aboutsectop h1,
+    main.subpage .mainhead h1 {
+        font-size: clamp(26px, 7.4vw, 30px);
+        line-height: 1.25;
+        text-wrap: balance;
+    }
+
+    .aboutsectop h1 br,
+    .mainhead h1 br {
+        display: none;
+    }
+
+    .partnersec img {
+        width: 80px;
+    }
+}
+
+.navbut .navlogin,
+.navbut .navsignup {
+    width: 90px;
+    height: 36px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbut .navlogin {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    transition: 0.3s ease;
+}
+
+.navbut .navlogin:hover {
+    background-color: #ededff;
+    color: var(--blue);
+}
+
+nav .navbut {
+    gap: 10px;
 }

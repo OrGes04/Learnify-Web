@@ -20,10 +20,10 @@ function About() {
                     </h1>
                 </div>
                 <div className="aboutsecdown">
-                    <img src="/About Page/Professor 1 copy.png" alt="Three Learnify instructors" className="profone" />
+                    <img src="/About Page/Professor 1 copy.webp" alt="Three Learnify instructors" className="profone" />
                     <div className="studentsbck">
-                        <img src="/About Page/Student 1.png" alt="" />
-                        <img src="/About Page/Student 2.png" alt="" />
+                        <img src="/About Page/Student 1.webp" alt="" />
+                        <img src="/About Page/Student 2.webp" alt="" />
                     </div>
                 </div>
             </section>
@@ -144,7 +144,7 @@ function About() {
 
             <section className="adsec reveal" id="aboutadsec">
                 <div id="aboutadft">
-                    <img src="/About Page/Professor 9.png" alt="" />
+                    <img src="/About Page/Professor 9.webp" alt="" />
                 </div>
                 <div className="adtext" id="aboutadtext">
                     <h2>Be a Part Of<br />
